@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: dify
+  codec:
+    max-in-memory-size: 10MB   # 防止流数据过大报错
+
+server:
+  port: 8080
